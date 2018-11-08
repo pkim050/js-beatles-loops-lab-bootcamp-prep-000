@@ -1,10 +1,8 @@
 // add solution here
 function theBeatlesPlay(musician, instrument) {
   var array = {};
-  var temp = "";
   for (var i = 0; i < musician.length; i++) {
-    temp = musician[i] + " plays " + instrument[i];
-    array.push(temp);
+    array[i] = musician[i] + " plays " + instrument[i];
   }
   return array;
 }

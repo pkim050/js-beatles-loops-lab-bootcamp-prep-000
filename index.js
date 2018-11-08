@@ -3,7 +3,6 @@ function theBeatlesPlay(musician, instrument) {
   var array = [];
   for (var i = 0; i < musician.length; i++) {
     array[i] = musician[i] + " plays " + instrument[i];
-    console.log(array[i]);
   }
   return array;
 }
@@ -18,7 +17,7 @@ function johnLennonFacts(facts) {
 }
 
 function iLoveTheBeatles(number) {
-  var array2 = {};
+  var array2 = [];
   do {
     array2 = "I love the Beatles!";
     if (number === 14) {
